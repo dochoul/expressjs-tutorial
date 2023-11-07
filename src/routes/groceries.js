@@ -23,4 +23,9 @@ router.post("/", (req, res) => {
   res.send(201);
 });
 
+//* POST
+router.post("/", (req, res) => {
+  console.log("post");
+});
+
 module.exports = router;
