@@ -8,6 +8,7 @@ const supermarkets = [
   { id: 3, store: "Albertsons", miles: 2.8 },
   { id: 4, store: "Trafer Joes", miles: 3.5 },
   { id: 5, store: "Albertsons", miles: 1.8 },
+  { id: 6, store: "Albertsons", miles: 1.8 },
 ];
 
 router.get("/", (req, res) => {
